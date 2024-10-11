@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        body{
+            background-color: #1F1717;
+        }
+
+        #topPart{
+            background-color: #CE5A67;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #E9E8E8;
+            margin: 5px;
+            width: 100%;
+            padding: 5px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .mainBody{
+            background-color: #F4BF96;
+            position: absolute;
+            font-family: monospace;
+            color: #E9E8E8;
+            margin: 5px;
+            width: 100%;
+            height: fit-content;
+            padding: 5px;
+            padding-bottom: 50px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .header{
+            float: left;
+            font-size: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-top: 10px;
+            border-radius: 5px;
+            background-color: #793636;
+        }
+
+        h2.header{
+            width: 100%;
+        }
+
+        .dates{
+            background-color: #9e3e4a;
+            width: fit-content;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 10px;
+            clear: left;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            float: left;
+        }
+
+        #currentDate{
+            border: solid #9A4444;
+        }
+
+        .events{
+            background-color: #CE5A67;
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 0%;
+            border-radius: 5px;
+            float: right;
+        }
+
+        .dateOne, .dateTwo, .dateThree {
+            background-color: #CE5A67;
+            width: 30%;
+            height: 100px;
+            justify-content: space-evenly;
+            margin-right: 10px;
+            border-radius: 5px;
+            float: left;
+            border: solid #9A4444 ;
+        }
+    </style>
+</head>
+<body>
+    <div id="topPart">
+        <h1>Calendar 2023<h1>
+    </div>
+    <div class="mainBody">
+        <div class="dateToday">
+            <h3 class="header">Today:</h3>
+            <p class="dates" id="currentDate" style="float: left; clear: none; margin-left: 30px; margin-top: 10px;">currentDate</p>
+        </div>
+        <div class="dateNovember">
+            <h2 class="header">November 2023</h2>
+            <div class="dateOne">
+                <p class="dates" id="examDate">examDate</p>
+                <p class="events">Start of Exam</p>
+            </div>
+            <div class="dateTwo">
+                <p class="dates" id="birthDate">birthDate</p>
+                <p class="events">18<sup>th</sup> Birthday</p>
+            </div>
+            <div class="dateThree">
+                <p class="dates" id="thanksgiving">thanksgiving</p>
+                <p class="events">Thanksgiving</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var currentDate = new Date();
+        document.getElementById("currentDate").innerHTML = currentDate.toDateString();
+
+        var examDate = new Date("11, 03, 23");
+        document.getElementById("examDate").innerHTML =  examDate.toDateString();
+
+        var birthDate = new Date("11, 7, 23");
+        document.getElementById("birthDate").innerHTML = birthDate.toDateString();
+
+        var thanksgiving = new Date("11, 23, 23");
+        document.getElementById("thanksgiving").innerHTML =  thanksgiving.toDateString();
+    </script>
+</body>
+</html>
