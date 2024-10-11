@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>naks namarn</title>
+    </head>
+    <body>
+
+    <div class="inline">
+        <svg height="500" width="700" style="background-color:#cac1dd;">
+            <text x="20" y="100" class="textt" style="font-size:45px;">octavinelle</text>
+            <text x="20" y="150" class="textt" style="font-size:45px;">octavinelle</text>
+            <text x="20" y="200" class="textt" style="font-size:45px;">octavinelle</text>
+            <text x="20" y="230" class="textt" style="font-size:15px;">octavinelle</text>
+            <!-- para sa lagayan -->
+            <rect x="420" y="20" rx="20" ry="20" width="200" height="250"
+            style="fill:#9e8c75;"/>
+            <rect id="sec" x="80" y="150" rx="20" ry="20" width="200" height="250"
+            style="fill:#9e8c75;"/>
+            <rect id="thi" x="100" y="70" rx="20" ry="20" width="200" height="250"
+            style="fill:#9e8c75;"/>
+            <rect id="fou" x="400" y="-10" rx="20" ry="20" width="200" height="250"
+            style="fill:#9e8c75;"/>
+            <rect id="fif" x="360" y="-30" rx="20" ry="20" width="200" height="250"
+            style="fill:#9e8c75;"/>
+            <!-- stem -->
+            <rect id="ayaw" x="440" y="90" rx="20" ry="20" width="10" height="250"
+            style="fill:#38532e;"/>
+            <rect id="ko" x="500" y="50" rx="20" ry="20" width="10" height="250"
+            style="fill:#38532e;"/>
+            <rect id="na" x="450" y="-50" rx="20" ry="20" width="10" height="250"
+            style="fill:#38532e;"/>
+            <rect id="uwu" x="550" y="-20" rx="20" ry="20" width="10" height="250"
+            style="fill:#38532e;"/>
+            <!-- 1st lav -->
+            <ellipse cx="420" cy="80" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="420" cy="85" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="410" cy="90" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="430" cy="90" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="415" cy="95" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="420" cy="100" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="415" cy="105" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="420" cy="110" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="420" cy="115" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="410" cy="120" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="430" cy="120" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="415" cy="125" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="425" cy="130" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="425" cy="135" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="420" cy="140" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="425" cy="145" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="410" cy="150" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="430" cy="150" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="415" cy="155" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="435" cy="160" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="425" cy="165" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="435" cy="170" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="430" cy="175" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="420" cy="180" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="440" cy="180" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="435" cy="185" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="435" cy="190" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="430" cy="195" rx="15" ry="5" style="fill:#4d2e66" />
+            <!-- 2nd lav --> <!-- poganda nyo po -->
+            <ellipse cx="470" cy="30" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="470" cy="35" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="460" cy="40" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="480" cy="40" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="465" cy="45" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="470" cy="50" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="465" cy="55" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="470" cy="60" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="470" cy="65" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="460" cy="70" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="480" cy="70" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="465" cy="75" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="475" cy="80" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="475" cy="85" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="470" cy="90" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="475" cy="95" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="460" cy="100" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="480" cy="100" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="465" cy="150" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="485" cy="110" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="475" cy="115" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="485" cy="120" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="480" cy="125" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="475" cy="130" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="490" cy="130" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="485" cy="135" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="485" cy="140" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="490" cy="145" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="480" cy="150" rx="15" ry="10" style="fill:#4d2e66" />
+            <!-- 3rd lav -->
+            <ellipse cx="590" cy="40" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="590" cy="45" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="580" cy="50" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="600" cy="50" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="585" cy="55" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="580" cy="60" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="590" cy="60" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="570" cy="65" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="580" cy="70" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="590" cy="70" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="575" cy="75" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="570" cy="80" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="570" cy="80" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="570" cy="85" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="575" cy="90" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="580" cy="90" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="560" cy="95" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="565" cy="100" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="560" cy="100" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="565" cy="105" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="540" cy="110" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="560" cy="110" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="555" cy="115" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="550" cy="120" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="545" cy="120" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="540" cy="130" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="530" cy="135" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="545" cy="140" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="540" cy="145" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="535" cy="150" rx="15" ry="5" style="fill:#4d2e66" />
+            <!-- last na -->
+            <ellipse cx="630" cy="70" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="640" cy="75" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="630" cy="75" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="620" cy="80" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="630" cy="85" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="620" cy="90" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="615" cy="95" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="620" cy="100" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="620" cy="105" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="615" cy="110" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="625" cy="110" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="610" cy="115" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="615" cy="120" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="615" cy="125" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="620" cy="130" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="610" cy="135" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="610" cy="140" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="625" cy="140" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="615" cy="145" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="600" cy="150" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="605" cy="155" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="600" cy="160" rx="10" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="595" cy="165" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="605" cy="170" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="590" cy="170" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="595" cy="175" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="585" cy="180" rx="15" ry="5" style="fill:#4d2e66" />
+            <ellipse cx="590" cy="185" rx="15" ry="5" style="fill:#4d2e66" />
+            <polygon points="600 250, 650 220, 660 220, 665 230, 665 240, 650 250, 680 240, 680 230, 680 220, 670 210, 620 210" style="fill:#1b2a16"/>
+            <!-- Likodd leftt -->
+            <rect id="hatdog" x="420" y="150" rx="20" ry="20" width="10" height="200"
+            style="fill:#1a2816;"/>
+            <path d="M450 120 C380 80 440 30 470 60 C470 70 485 70 490 130 Z" fill="#bcb4d7" />
+            <path d="M450 120 C440 80 490 30 500 60 C500 70 535 70 470 130 Z" fill="#bcb4d7" />
+            <path d="M470 120 C430 100 430 60 450 60 C470 70 485 70 490 130 Z" fill="#7c6ea7" />
+            <path d="M460 120 C460 100 470 60 490 60 C485 65 520 75 470 130 Z" fill="#625682" />
+            <path d="M455 120 C470 120 440 50 470 60 C485 50 490 75 470 130 Z" fill="#443a59" />
+            <path d="M450 120 C450 120 430 110 425 90 C485 80 500 60 470 130 Z" fill="#a297c3" />
+            <polygon points="480 145, 460 135, 455 130, 435 120, 425 110, 415 110, 410 120, 405 110, 415 100, 425 100, 440 100, 460 105, 465 105, 470 105, 480 100, 490 95, 510 95, 520 100, 515 115, 510 105, 505 105, 490 130" style="fill:#24371e;"/>
+            <!-- Likodd righht -->
+            <rect id="hatdog" x="420" y="150" rx="20" ry="20" width="10" height="200"
+            style="fill:#1a2816;"/>
+            <path d="M530 130 C470 90 520 40 550 70 C550 80 565 80 570 140 Z" fill="#bcb4d7" />
+            <path d="M530 130 C520 90 570 40 580 70 C580 80 615 80 550 140 Z" fill="#bcb4d7" />
+            <path d="M550 130 C510 110 510 70 530 70 C550 80 565 80 570 140 Z" fill="#7c6ea7" />
+            <path d="M540 130 C540 110 550 70 570 70 C565 75 600 85 550 140 Z" fill="#625682" />
+            <path d="M535 130 C550 130 520 60 550 70 C565 60 570 85 550 140 Z" fill="#443a59" />
+            <path d="M530 130 C530 130 510 120 505 100 C565 90 580 70 550 140 Z" fill="#a297c3" />
+            <polygon points="560 135, 540 135, 525 130, 515 120, 505 110, 495 110, 490 120, 485 110, 495 100, 505 100, 520 100, 540 105, 545 105, 540 105, 560 100, 570 95, 590 95, 600 100, 595 115, 590 105, 585 105, 570 130" style="fill:#24371e;"/>
+            <!-- lavven -->
+            <ellipse cx="440" cy="75" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="445" cy="60" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="440" cy="65" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="435" cy="70" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="440" cy="75" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="435" cy="80" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="445" cy="80" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="435" cy="85" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="430" cy="90" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="435" cy="95" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="440" cy="100" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="445" cy="100" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="440" cy="105" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="435" cy="110" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="440" cy="110" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="445" cy="115" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="450" cy="120" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="445" cy="125" rx="15" ry="5" style="fill:#3e2552" />
+            <polygon points="450 160, 410 140, 420 100, 400 50, 430 90, 460 120" style="fill:#426537" />            
+            <polygon points="550 160, 530 140, 550 100, 590 50, 570 100, 560 120" style="fill:#426537" />            
+            <!-- lavenderdfsds -->
+            <ellipse cx="590" cy="75" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="595" cy="60" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="600" cy="65" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="605" cy="70" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="610" cy="75" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="590" cy="80" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="605" cy="80" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="600" cy="85" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="590" cy="90" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="595" cy="95" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="600" cy="100" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="590" cy="100" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="600" cy="105" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="595" cy="110" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="590" cy="110" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="585" cy="115" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="575" cy="120" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="570" cy="125" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="575" cy="130" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="560" cy="135" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="550" cy="140" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="605" cy="140" rx="15" ry="5" style="fill:#3e2552" />
+            <polygon points="550 160, 530 140, 550 100, 590 50, 570 100, 560 120" style="fill:#426537" />            
+            <!-- lavender ulit -->
+            <ellipse cx="500" cy="55" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="505" cy="60" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="510" cy="65" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="515" cy="70" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="510" cy="75" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="515" cy="80" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="505" cy="80" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="510" cy="85" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="515" cy="90" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="500" cy="95" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="510" cy="100" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="505" cy="100" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="500" cy="105" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="490" cy="110" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="490" cy="110" rx="15" ry="5" style="fill:#3e2552" />
+            <!-- lavenderdfsds -->
+            <ellipse cx="500" cy="55" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="505" cy="60" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="510" cy="65" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="515" cy="70" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="510" cy="75" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="515" cy="80" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="505" cy="80" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="510" cy="85" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="515" cy="90" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="500" cy="95" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="510" cy="100" rx="10" ry="5" style="fill:#3e2552" />
+            <ellipse cx="505" cy="100" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="500" cy="105" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="490" cy="110" rx="15" ry="5" style="fill:#3e2552" />
+            <ellipse cx="490" cy="110" rx="15" ry="5" style="fill:#3e2552" />
+            <!-- top flowerskjksks -->
+            <rect id="hatdog" x="420" y="150" rx="20" ry="20" width="10" height="200"
+            style="fill:#1a2816;"/>
+            <path d="M380 160 C320 120 370 70 400 100 C400 110 415 110 420 170 Z" fill="#bcb4d7" />
+            <path d="M380 160 C370 120 420 70 430 100 C430 110 465 110 400 170 Z" fill="#bcb4d7" />
+            <path d="M400 160 C360 140 360 100 380 100 C400 110 415 110 420 170 Z" fill="#7c6ea7" />
+            <path d="M390 160 C390 140 400 100 420 100 C415 105 450 115 400 170 Z" fill="#625682" />
+            <path d="M385 160 C400 160 370 90 400 100 C415 90 420 115 400 170 Z" fill="#443a59" />
+            <path d="M380 160 C380 160 360 150 355 130 C415 120 430 100 400 170 Z" fill="#a297c3" />
+            <polygon points="410 175, 390 175, 375 170, 365 160, 355 150, 345 150, 340 160, 335 150, 345 140, 355 140, 370 140, 390 145, 395 145, 400 145, 410 140, 420 135, 440 135, 450 140, 445 155, 440 145, 435 145, 420 170" style="fill:#24371e;"/>
+            <!-- hihi -->
+            <rect x="490" y="150" rx="20" ry="20" width="10" height="200"
+            style="fill:#1a2816;"/>
+            <path d="M600 170 C540 130 590 80 620 110 C620 120 635 120 640 180 Z" fill="#bcb4d7" />
+            <path d="M600 170 C590 130 640 80 650 110 C650 120 685 120 620 180 Z" fill="#bcb4d7" />
+            <path d="M620 170 C580 130 580 110 600 110 C620 120 635 120 640 180 Z" fill="#7c6ea7" />
+            <path d="M610 170 C610 150 620 110 640 110 C635 125 670 125 620 180 Z" fill="#625682" />
+            <path d="M605 170 C620 170 590 100 620 110 C635 100 640 125 620 180 Z" fill="#443a59" />
+            <path d="M600 170 C600 170 580 160 575 140 C635 130 650 110 620 180 Z" fill="#a297c3" />
+            <polygon points="630 175, 610 175, 595 170, 585 160, 575 150, 565 150, 560 160, 555 150, 565 140, 575 140, 590 140, 610 145, 615 145, 620 145, 630 140, 640 135, 660 135, 670 140, 665 155, 660 145, 655 145, 640 170" style="fill:#24371e;"/>
+            <!-- pretty nyo p -->
+            <rect x="490" y="150" rx="20" ry="20" width="10" height="200"
+            style="fill:#1a2816;"/>
+            <path d="M480 170 C420 130 470 80 500 110 C500 120 515 120 520 180 Z" fill="#bcb4d7" />
+            <path d="M480 170 C470 130 520 80 530 110 C530 120 565 120 500 180 Z" fill="#bcb4d7" />
+            <path d="M500 170 C460 130 460 110 480 110 C500 120 515 120 520 180 Z" fill="#7c6ea7" />
+            <path d="M490 170 C490 150 500 110 520 110 C515 125 550 125 500 180 Z" fill="#625682" />
+            <path d="M485 170 C500 170 470 100 500 110 C515 100 520 125 500 180 Z" fill="#443a59" />
+            <path d="M480 170 C480 170 460 160 455 140 C515 130 530 110 500 180 Z" fill="#a297c3" />
+            <!--lavvenndderr-->
+            <polygon points="510 185, 490 185, 475 180, 465 170, 455 160, 445 160, 440 170, 435 160, 445 150, 455 150, 470 150, 490 155, 495 155, 490 155, 500 150, 520 145, 540 145, 550 150, 545 165, 540 155, 535 155, 520 180" style="fill:#152211;"/>
+            <ellipse cx="480" cy="135" rx="10" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="480" cy="140" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="475" cy="145" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="480" cy="150" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="485" cy="155" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="480" cy="160" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="490" cy="160" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="495" cy="165" rx="10" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="500" cy="170" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="495" cy="175" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="490" cy="180" rx="10" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="485" cy="180" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="480" cy="185" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="470" cy="190" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="490" cy="190" rx="15" ry="5" style="fill:#4c2e64" />
+            <!--katabi nung lavenderr-->
+            <ellipse cx="380" cy="135" rx="10" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="380" cy="140" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="375" cy="145" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="380" cy="150" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="385" cy="155" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="380" cy="160" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="390" cy="160" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="385" cy="165" rx="10" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="380" cy="170" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="395" cy="175" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="390" cy="180" rx="10" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="385" cy="180" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="380" cy="185" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="370" cy="190" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="390" cy="190" rx="15" ry="5" style="fill:#4c2e64" />
+            <!--lalalal-->
+            <polygon points="560 160, 540 150, 545 130, 560 110, 590 100, 610 100, 620 110, 620 130, 610 140, 610 130, 610 120, 600 110, 580 115, 560 130" style="fill:#1b2a16" />            
+            <polygon points="630 200, 630 190, 650 180, 660 185, 665 195, 670 205, 675 210, 695 220, 675 190, 670 175, 660 165, 650 160, 630 160, 615 170" style="fill:#426537;"/>
+            <rect id="sticck" x="575" y="30" rx="20" ry="20" width="10" height="200"
+            style="fill:#1a2816;"/>
+            <ellipse cx="660" cy="135" rx="10" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="660" cy="140" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="665" cy="145" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="660" cy="150" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="665" cy="155" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="670" cy="160" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="660" cy="160" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="655" cy="165" rx="10" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="660" cy="170" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="655" cy="175" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="650" cy="180" rx="10" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="665" cy="180" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="655" cy="185" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="660" cy="190" rx="15" ry="5" style="fill:#4c2e64" />
+            <ellipse cx="650" cy="190" rx="15" ry="5" style="fill:#4c2e64" />
+            <!-- dloer thrheheheh -->
+            <path d="M430 210 C380 170 410 90 450 130 C450 160 455 160 470 220 Z" fill="#bcb4d7" />
+            <path d="M430 190 C420 150 470 100 480 130 C480 140 485 140 450 200 Z" fill="#bcb4d7" />
+            <path d="M450 190 C410 170 410 130 430 130 C450 140 465 140 470 200 Z" fill="#7c6ea7" />
+            <path d="M440 190 C440 170 450 130 470 130 C465 135 500 145 450 200 Z" fill="#625682" />
+            <path d="M435 190 C450 190 420 120 450 130 C465 120 470 145 450 200 Z" fill="#443a59" />
+            <path d="M410 190 C410 190 410 180 405 160 C465 150 480 130 450 200 Z" fill="#a297c3" />
+            <polygon points="450 205, 430 205, 415 200, 405 190, 395 180, 385 180, 380 190, 375 180, 385 170, 395 170, 410 170, 430 175, 435 175, 440 175, 450 170, 460 165, 480 165, 490 170, 485 185, 480 175, 475 175, 460 200" style="fill:#1c2c17;"/>
+            <!-- mouse -->
+            <rect x="540" y="150" rx="20" ry="20" width="10" height="200"
+            style="fill:#1a2816;"/>
+            <path d="M530 210 C470 170 510 120 550 150 C550 160 565 160 570 220 Z" fill="#bcb4d7" />
+            <path d="M530 210 C520 220 530 150 550 130 C580 150 615 150 550 220 Z" fill="#bcb4d7" />
+            <path d="M550 210 C510 190 510 150 530 150 C550 160 565 160 570 220 Z" fill="#7c6ea7" />
+            <path d="M540 210 C540 190 550 150 570 150 C565 155 600 165 550 220 Z" fill="#625682" />
+            <path d="M535 210 C550 210 520 140 550 150 C565 140 570 165 550 220 Z" fill="#443a59" />
+            <path d="M550 210 C530 210 510 200 505 180 C565 170 580 150 550 220 Z" fill="#a297c3" />
+            <polygon points="560 225, 540 225, 525 220, 515 210, 510 200, 495 200, 490 210, 485 200, 495 190, 505 190, 520 190, 540 195, 545 195, 550 195, 560 190, 570 185, 590 185, 600 190, 595 205, 590 195, 585 195, 570 220" style="fill:#1c2c17;"/>
+            <!-- rigghttt -->
+            <path d="M580 240 C520 200 570 150 600 180 C600 190 615 190 620 250 Z" fill="#bcb4d7" />
+            <path d="M580 240 C570 200 620 150 630 180 C630 190 665 190 600 250 Z" fill="#bcb4d7" />
+            <path d="M600 240 C560 220 560 180 580 180 C600 190 615 190 620 250 Z" fill="#7c6ea7" />
+            <path d="M590 240 C590 220 600 180 620 180 C615 185 650 195 600 250 Z" fill="#625682" />
+            <path d="M585 240 C600 240 570 170 600 180 C615 170 620 195 600 250 Z" fill="#443a59" />
+            <path d="M580 240 C580 240 560 230 555 210 C615 200 630 180 600 250 Z" fill="#a297c3" />
+            <polygon points="610 255, 590 255, 575 250, 565 240, 555 230, 545 230, 540 240, 535 230, 545 220, 555 220, 570 220, 590 225, 595 225, 600 225, 610 220, 620 215, 640 215, 650 220, 645 235, 640 225, 635 225, 620 250" style="fill:#24371e;"/>
+            <!-- dahon (light)-->
+            <polygon points="450 275, 425 255, 420 240, 390 200, 350 160, 410 200, 460 260" style="fill:#426537;"/>
+            <!--yap-->
+            <rect id="ehtlog" x="400" y="210" rx="20" ry="20" width="10" height="200"
+            style="fill:#38532e;"/>
+            <ellipse cx="370" cy="190" rx="10" ry="5" style="fill:#6c428e" />
+            <ellipse cx="375" cy="195" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="380" cy="195" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="375" cy="200" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="370" cy="205" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="390" cy="205" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="385" cy="210" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="380" cy="215" rx="10" ry="5" style="fill:#6c428e" />
+            <ellipse cx="390" cy="215" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="395" cy="220" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="400" cy="225" rx="10" ry="5" style="fill:#6c428e" />
+            <ellipse cx="390" cy="230" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="410" cy="230" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="415" cy="235" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="410" cy="240" rx="15" ry="5" style="fill:#6c428e" />
+            <!-- dahon (dark curvevd0) -->                                                                      <!-- dulo -->
+            <polygon points="470 260, 460 240, 450 230, 430 220, 410 215, 390 215, 370 220, 365 230, 370 240, 355 230, 360 215, 380 205, 400 200, 430 205, 455 215, 465 220, 470 225" style="fill:#1b2a16;"/>
+            <!-- slay bulaklak -->
+            <path d="M480 260 C420 220 470 170 500 200 C500 210 515 210 520 270 Z" fill="#bcb4d7" />
+            <path d="M480 260 C470 220 520 170 530 200 C530 210 565 210 500 270 Z" fill="#bcb4d7" />
+            <path d="M500 260 C460 240 460 200 480 200 C500 210 515 210 520 270 Z" fill="#7c6ea7" />
+            <path d="M490 260 C490 240 500 200 520 200 C515 205 550 215 500 270 Z" fill="#625682" />
+            <path d="M485 260 C500 260 470 190 500 200 C515 190 520 215 500 270 Z" fill="#443a59" />
+            <path d="M480 260 C480 260 460 250 455 230 C515 220 530 200 500 270 Z" fill="#a297c3" />
+            <!--haruhp-->
+            <rect id="notepad" x="450" y="250" rx="20" ry="20" width="10" height="100"
+            style="fill:#38532e;"/>
+            <ellipse cx="470" cy="175" rx="10" ry="5" style="fill:#6c428e" />
+            <ellipse cx="465" cy="180" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="460" cy="185" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="460" cy="190" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="470" cy="195" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="450" cy="195" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="455" cy="200" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="460" cy="205" rx="10" ry="5" style="fill:#6c428e" />
+            <ellipse cx="440" cy="205" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="445" cy="210" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="450" cy="215" rx="10" ry="5" style="fill:#6c428e" />
+            <ellipse cx="440" cy="220" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="460" cy="220" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="455" cy="225" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="450" cy="230" rx="15" ry="5" style="fill:#6c428e" />
+            <polygon points="510 275, 490 275, 475 270, 465 260, 455 250, 445 250, 440 260, 435 250, 445 240, 455 240, 470 240, 490 245, 495 245, 500 245, 510 240, 520 225, 540 225, 550 230, 545 255, 540 235, 535 235, 520 260" style="fill:#283d21;"/>
+            <!-- lavvv -->
+            <polygon points="550 260, 540 240, 540 230, 540 220, 545, 215, 570 215, 580 220, 600 230, 610 240, 610 250, 600 240, 590 235, 570 230, 560 230, 550 235, 555 245, 570 245, 580 260" style="fill:#4e7841;"/>
+            <rect x="550" y="210" rx="20" ry="20" width="10" height="100"
+            style="fill:#38532e;"/>
+            <polygon points="520 260, 525 240, 525 225, 520 210, 510 195, 500 185, 490 180, 520 185, 530 195, 540 210, 545 225, 550 240, 560 260" style="fill:#426537;"/>
+
+            <ellipse cx="560" cy="185" rx="10" ry="5" style="fill:#6c428e" />
+            <ellipse cx="560" cy="190" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="555" cy="195" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="560" cy="200" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="555" cy="205" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="550" cy="210" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="560" cy="210" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="555" cy="215" rx="10" ry="5" style="fill:#6c428e" />
+            <ellipse cx="550" cy="220" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="560" cy="225" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="540" cy="230" rx="10" ry="5" style="fill:#6c428e" />
+            <ellipse cx="550" cy="230" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="555" cy="235" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="545" cy="240" rx="15" ry="5" style="fill:#6c428e" />
+            <ellipse cx="560" cy="240" rx="15" ry="5" style="fill:#6c428e" />
+            
+            <!-- aneng ano nya takip -->
+            <rect x="420" y="250" rx="20" ry="20" width="200" height="100"
+            style="fill:#9e8c75;"/>
+            <!-- circlesss -->
+            <ellipse cx="420" cy="240" rx="30" ry="30" style="fill:white; opacity: 0.2;" />
+            <ellipse cx="440" cy="220" rx="20" ry="20" style="fill:white; opacity: 0.2;" />
+            <ellipse cx="630" cy="80" rx="50" ry="50" style="fill:white; opacity: 0.2;" />
+            <ellipse cx="460" cy="120" rx="20" ry="20" style="fill:white; opacity: 0.2;" />
+            <ellipse cx="480" cy="80" rx="10" ry="10" style="fill:white; opacity: 0.2;" />
+            <ellipse cx="600" cy="240" rx="10" ry="10" style="fill:white; opacity: 0.2;" />
+            <ellipse cx="560" cy="180" rx="10" ry="10" style="fill:white; opacity: 0.2;" />
+            <ellipse cx="360" cy="100" rx="10" ry="10" style="fill:white; opacity: 0.2;" />
+            <ellipse cx="540" cy="60" rx="10" ry="10" style="fill:white; opacity: 0.2;" />
+            <ellipse cx="535" cy="255" rx="10" ry="10" style="fill:white; opacity: 0.2;" />
+            <ellipse cx="480" cy="190" rx="10" ry="10" style="fill:white; opacity: 0.2;" />
+            <ellipse cx="650" cy="150" rx="10" ry="10" style="fill:white; opacity: 0.2;" />
+            <ellipse cx="560" cy="130" rx="20" ry="20" style="fill:white; opacity: 0.2;" />
+            <rect x="0" y="380" width="700" height="500"
+            style="fill:white;"/>
+    </div>
+    </body>
+</html>
