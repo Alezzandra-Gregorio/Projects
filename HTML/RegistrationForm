@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body bgcolor="#52BE80">
+        <img src="https://www.freeiconspng.com/thumbs/book-png/book-png-18.png" height="120" width="100" align="right"/>
+        <div style="background-color:#1A5276; color:white; padding:20px;">
+            <h1 align="left">Student Registration Form</h1>
+        </div>
+        <br/>
+        <div style="background-color:#7FB3D5; color:black; padding:20px;">
+         <form>
+             <p><b> First Name: </b></p>
+             <input type="Text" Name="First_Name">
+             <p><b> Middle Name: </b></p>
+             <input type="Text" Name="Middle_Name">
+             <p><b> Last Name: </b></p>
+             <input type="Text" Name="Last_Name">
+             <p><b> Birthday: (Ex. 12/01/02) </b></p>
+             <input type="Text" Name="Birthday">
+             <p><b> Gender: </b></p>
+             <input type="Radio" Name="Gender" value="Male"> Male <br />
+             <input type="Radio" Name="Gender" value="Female"> Female <br />
+             <p><b> Adress: </b></p>
+             <input type="Text" Name="Adress">
+             <p><b> Contact No: </b></p>
+             <input type="Text" Name="Contact_No">
+             <p><b> Schedule: </b></p>
+             <input type="Checkbox" Name="Schedule" value="Monday"> Monday <br />
+             <input type="Checkbox" Name="Schedule" value="Tuesday"> Tuesday <br />
+             <input type="Checkbox" Name="Schedule" value="Wednesday"> Wednesday <br />
+             <input type="Checkbox" Name="Schedule" value="Thursday"> Thursday <br />
+             <input type="Checkbox" Name="Schedule" value="Friday"> Friday <br />
+             <input type="Checkbox" Name="Schedule" value="Saturday"> Saturday <br />
+             </br>
+             <input type="Submit" value="Submit">
+             <br/>
+         </form>
+       </div>
+     </body>
+</html>
