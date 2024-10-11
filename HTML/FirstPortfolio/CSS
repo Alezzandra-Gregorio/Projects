@@ -1,0 +1,39 @@
+i
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#header
+{
+    color: floralwhite;
+}
+
+.highlight
+{
+    color: #750E0E;
+    text-decoration: underline; 
+}
+
+#about
+{
+    font-style: serif;
+    text-align: center;
+}
+
+.text
+{
+    color: floralwhite;
+}
+
+a
+{
+    color: #750E0E;
+}
+
+table, tr, td, th
+{
+	border:2px solid #ffffff;
+    border-collapse: collapse;
+    color: #ffffff;
+    text-align: center;
+}
