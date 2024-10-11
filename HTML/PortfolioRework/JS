@@ -1,0 +1,102 @@
+//run when About me is clicked
+function slay() {
+    var yuh = document.getElementById('yuh');
+    var yuh2 = document.getElementById('yuh2');
+    var yuh3 = document.getElementById('yuh3');
+    var yuh4 = document.getElementById('yuh4');
+    var yuh5 = document.getElementById('yuh5');
+
+    yuh.style.display = 'block';
+    yuh2.style.display = 'none';
+    yuh3.style.display = 'none';
+    yuh4.style.display = 'none';
+    yuh5.style.display = 'none';
+}
+
+//run when How I see myself is clicked
+function slay2() {
+    var yuh = document.getElementById('yuh');
+    var yuh2 = document.getElementById('yuh2');
+    var yuh3 = document.getElementById('yuh3');
+    var yuh4 = document.getElementById('yuh4');
+    var yuh5 = document.getElementById('yuh5');
+
+    yuh.style.display = 'none';
+    yuh2.style.display = 'block';
+    yuh3.style.display = 'none';
+    yuh4.style.display = 'none';
+    yuh5.style.display = 'none';
+}
+
+//run when How I am seen is clicked
+function slay3() {
+    var yuh = document.getElementById('yuh');
+    var yuh2 = document.getElementById('yuh2');
+    var yuh3 = document.getElementById('yuh3');
+    var yuh4 = document.getElementById('yuh4');
+    var yuh5 = document.getElementById('yuh5');
+
+    yuh.style.display = 'none';
+    yuh2.style.display = 'none';
+    yuh3.style.display = 'block';
+    yuh4.style.display = 'none';
+    yuh5.style.display = 'none';
+}
+
+//run when My schedule is clicked
+function slay4() {
+    var yuh = document.getElementById('yuh');
+    var yuh2 = document.getElementById('yuh2');
+    var yuh3 = document.getElementById('yuh3');
+    var yuh4 = document.getElementById('yuh4');
+    var yuh5 = document.getElementById('yuh5');
+
+    yuh.style.display = 'none';
+    yuh2.style.display = 'none';
+    yuh3.style.display = 'none';
+    yuh4.style.display = 'block';
+    yuh5.style.display = 'none';
+}
+
+function slay4() {
+    var yuh = document.getElementById('yuh');
+    var yuh2 = document.getElementById('yuh2');
+    var yuh3 = document.getElementById('yuh3');
+    var yuh4 = document.getElementById('yuh4');
+    var yuh5 = document.getElementById('yuh5');
+
+    yuh.style.display = 'none';
+    yuh2.style.display = 'none';
+    yuh3.style.display = 'none';
+    yuh4.style.display = 'block';
+    yuh5.style.display = 'none';
+}
+
+function slay5() {
+    var yuh = document.getElementById('yuh');
+    var yuh2 = document.getElementById('yuh2');
+    var yuh3 = document.getElementById('yuh3');
+    var yuh4 = document.getElementById('yuh4');
+    var yuh5 = document.getElementById('yuh5');
+
+    yuh.style.display = 'none';
+    yuh2.style.display = 'none';
+    yuh3.style.display = 'none';
+    yuh4.style.display = 'none';
+    yuh5.style.display = 'block';
+}
+
+//run when symbols are clicked
+ function resetAll() {
+        var yuh = document.getElementById('yuh');
+        var yuh2 = document.getElementById('yuh2');
+        var yuh3 = document.getElementById('yuh3');
+        var yuh4 = document.getElementById('yuh4');
+        var yuh5 = document.getElementById('yuh5');
+
+        yuh.style.display = 'none';
+        yuh2.style.display = 'none';
+        yuh3.style.display = 'none';
+        yuh4.style.display = 'none';
+        yuh5.style.display = 'none';
+}
