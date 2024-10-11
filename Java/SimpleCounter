@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Program
+{
+    public static void main(String[] args) {
+		
+        System.out.println("Simple Counter Program :)");
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Your Number: ");
+        int number = scan.nextInt();
+        int x = 1;
+        System.out.println (number);
+        System.out.println ("Counter: ");
+        while (x < number) {
+            System.out.println(x);
+            x++;
+        }
+        System.out.println (number);
+	}
+}
