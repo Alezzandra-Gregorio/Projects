@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class MyClass {
+    public static void main(String args[]) {
+      
+      Scanner scan = new Scanner(System.in);
+      System.out.print("How are you feeling today? (Rate from 1-10) : ");
+      int input = scan.nextInt();
+      
+      System.out.println (input);
+         System.out.print("Msg: ");
+
+      if (input == 1)
+      {
+          System.out.println("I hope u feel better <3");
+	  }
+	  else if (input == 10)
+      {
+          System.out.println("That's Great! :D");
+      }
+	  else if (input >= 5 && input < 10)
+      {
+        System.out.println("That's Good");
+      }
+      else if (input <= 4 && input >= 2)
+      {
+          System.out.println("Are you okay? Sending Hugs <3");
+      }
+      else
+      {
+          System.out.println("Only (1-10) Sorry :(");
+      }
+    }
+}
