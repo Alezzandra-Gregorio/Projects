@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+		<div class="ancestors" align="center">
+            <div class="greatGrandparent" style="width:500px;">div (great-grandparent)
+                <ul class="grandparent">ul (grandparent)
+                    <li class="directParent">li (direct parent)
+                        <span class="span">span</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="buttons1">
+            <h1 align="center">The Hierarchy</h1>
+            <button class="span">span (child)</button> 
+            <button class="directParent">direct parent</button> <br>
+            <button class="grandparent">grandparent</button>
+            <button class="greatGrandparent">great-grandparent</button> <br>
+        </div>
+        <div class="buttons2">
+            <h1 align="center">Miscellaneous </h1>
+            <button class="parentsUntil">Color the ancestors red untill it reaches "div"</button>
+            <button class="italicize">Italicize all Ancestor Elements of < SPAN ></button> <br>
+            <button class="customBorder">Add a custom border color to the direct parent of the < SPAN > element</button>
+        </div>
+        <div class="content" align="center">
+            <br>
+            <div id="spanTXT">
+                <p>The child in the hierarchy</p>
+            </div>
+            <div id="directTXT">
+                <p>The direct parent in the hierarchy</p>
+            </div>
+            <div id="grandTXT">
+                <p>The grandparent in the hierarchy</p>
+            </div>
+            <div id="greatTXT">
+                <p>The great-grandparent in the hierarchy</p>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	</body>
+</html>
