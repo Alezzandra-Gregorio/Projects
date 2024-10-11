@@ -1,0 +1,42 @@
+.ancestors * {
+	display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+
+.buttons1{
+    float: right;
+}
+
+.buttons2{
+    float: left;
+}
+
+button{
+    background-color: white;
+    margin: 10px;
+    font-size: 20px;
+    width: 200px;
+    font-weight: bold;
+}
+
+.content{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.red{
+    color: red;
+    border: 2px solid red;
+}
+
+.blue{
+    color: blue;
+    border: 2px solid blue;
+}
+
+.italicize{
+    font-style: italic;
+}
