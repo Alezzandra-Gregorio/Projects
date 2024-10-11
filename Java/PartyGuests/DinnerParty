@@ -1,0 +1,17 @@
+class DinnerParty extends Party{
+    private int foodChoice;
+    
+    //getter
+    public int getFoodChoice() {
+        return foodChoice;
+    }
+    //setter
+    public void setFoodChoice(int choice) {
+        this.foodChoice = choice;
+    }
+    //overides the parent class
+    @Override
+    public void showInvitation() {
+        System.out.println("Please come to my dinner party!");
+    }
+}
