@@ -1,0 +1,16 @@
+class Party {
+    private int numGuests;
+    
+    //getter
+    public int getNumGuests() {
+        return numGuests;
+    }
+    //setter
+    public void setNumGuests(int num) {
+        this.numGuests = num;
+    }
+    //method that prints out "Please come to my party!"
+    public void showInvitation() {
+        System.out.println("Please come to my party!");
+    }
+}
