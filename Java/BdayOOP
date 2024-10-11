@@ -1,0 +1,34 @@
+import java.util.Scanner;
+//Party class
+public class Party{
+    private int numGuests;
+    //getter
+    public int getNumGuests() {
+        return numGuests;
+    }
+    //setter
+    public void setNumGuests(int numGuests) {
+        this.numGuests = numGuests;
+    }
+    
+    static void displayMessage() {
+        System.out.println("Enjoy the party!");
+    }
+}
+//BirthdayParty class
+class BirthdayParty extends Party{
+    int numGuests;
+}
+//main method
+public class MyClass
+{
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        BirthdayParty bday = new BirthdayParty();
+        int Guest = s.nextInt();
+        bday.setNumGuests(Guest); 
+        System.out.println("Enter number of guests: " + bday.getNumGuests());
+        System.out.println(bday.getNumGuests() + " guests have been invited.");
+        bday.displayMessage();
+	}
+}
