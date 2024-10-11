@@ -1,0 +1,89 @@
+import java.util.*;
+public class Sunny {
+    public static void main(String args[]) {
+      
+        Scanner sc = new Scanner(System.in);
+        Account a = new Account();
+        Buyer b = new Buyer();
+        int outcome;
+        
+        try{
+            System.out.println("Welcome to Sunny Suburbs\nWould you like to buy a House?\n1 - Yes\n2 - No");
+                int input = sc.nextInt();
+                
+            if (input == 1) {
+                System.out.println("Please register to buy a house");
+            } else if (input == 2) {
+                a.Thanks();
+                System.out.println("Come visit us again soon!!");
+                System.exit(0);
+            } else {
+                System.out.println("Put dedicated numbers for each operation please");
+                System.exit(0);
+            }
+            
+            sc.nextLine();
+            System.out.println("Enter your name");
+                a.Name = sc.nextLine();
+            System.out.println("Enter Your Age");
+                a.Age = sc.nextInt();
+                
+            if(a.Age < 18){
+                System.out.println("Sorry " + a.Name + ", You must be legal in age to buy one");
+                a.Thanks();
+                System.exit(0);
+            } else {
+                System.out.println("You have met the qualified age\nYou may wish to proceed");
+            }
+            System.out.println("Enter Your ID Number");
+                a.IdNum = sc.nextInt();
+            System.out.println("Enter Your Key Password (Must be a 4 digit int)");
+                int key = sc.nextInt();
+                a.setPassword(key);
+                
+            if (key > 9999) {
+                System.out.println("You may only input 4 digits as your key Password");
+                System.exit(0);
+            } else {
+                System.out.println("Account Succesfully Created");
+                System.out.println("Your email is: " + a.Name + "." + a.IdNum + "@sunnymail.com");
+            }
+            
+            System.out.println("You have " + b.Wallet + " in your wallet");
+            System.out.println("What do you want to buy?\n1 - Simple Cottage (Price : 1000)\n2 - Two Story Home (Price : 2500)");
+            System.out.println("3 - Tiny House (Price : 500)\n4 - Grand Mansion (Price : 4000)\n5 - Vintage Victorian House (Price : 6000)");
+            int buy = sc.nextInt();
+            System.out.println("Please enter your key to proceed");
+            int ps = sc.nextInt();
+            
+            if (ps == key) {
+                System.out.println("Verification Completed");
+            } else {
+                System.out.println("Sorry " + a.Name + " You have entered the wrong key");
+                System.exit(0);
+            }
+            
+            if (buy == 1) {
+                outcome = b.Wallet - 1000;
+                System.out.println("You have succesfully bought Simple Cottage, You now have " + outcome + " in your wallet");
+            } else if (buy == 2) {
+                outcome = b.Wallet - 2500;
+                System.out.println("You have succesfully bought Two Story Home, You now have " + outcome + " in your wallet");
+            } else if (buy == 3) {
+                outcome = b.Wallet - 500;
+                System.out.println("You have succesfully bought Tiny House, You now have " + outcome + " in your wallet");
+            } else if (buy == 4) {
+                outcome = b.Wallet - 4000;
+                System.out.println("You have succesfully bought Grand Mansion, You now have " + outcome + " in your wallet");
+            } else if (buy == 5) {
+                System.out.println("You don't have enough money for that sorry :(");
+            } else {
+                System.out.println("Put dedicated numbers for each operation please");
+            }
+        } catch (InputMismatchException e) {
+                System.out.println("Enter the approriate variable type please ;(");
+        } finally {
+            a.Thanks();
+        }
+    }
+}
