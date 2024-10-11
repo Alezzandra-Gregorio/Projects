@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HomeRoom Reflection</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+    
+    </head>
+    <body>
+        <DIV ID="mainBody">
+            <!--Menu Bar-->
+            <DIV CLASS="topPart">
+                <span id="menu" title="Menu" class="material-symbols-rounded" onclick="resetAll()">menu</span>
+                <span class="material-symbols-rounded" title="Back" onclick="resetAll()">arrow_back</span>
+                <span class="material-symbols-rounded" title="Forward">arrow_forward</span>
+                <span class="material-symbols-rounded" title="Refresh" onclick="resetAll()">refresh</span>
+                <input class="searchBar" type="text" placeholder="Search">
+                <span class="material-symbols-rounded" title="Search" onClick="slay5()">search</span>
+                <span class="material-symbols-rounded" onclick="resetAll()" title="Reset">autorenew</span>
+                <span id="exitSym" class="material-symbols-rounded" title="Exit" onclick="resetAll()">close</span>
+            </DIV>
+            <!--Main Body-->
+            <DIV>
+                <DIV id="top" class="Page">
+                    <img id="myPic" src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t1.6435-9/116841414_285739266053641_6545925786493378598_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=PBJx4iMvJesAX_pYqa2&_nc_ht=scontent.fmnl9-2.fna&oh=00_AfAg_jjXF1NwaqV7hfUda9WgAXS1FOkno6SEQcUqVOA-Pw&oe=65213B88"/>
+                    <h2 id="h2" class="head">Alezzandra Isabel B. Gregorio</h2>
+                </DIV>
+                <!--Click for info-->
+                    <div class="clicks">
+                        <a href="#">
+                            <h6 class="descB" onclick="slay()">About Me</h6>    
+                        </a>
+                        <a href"#">
+                            <h6 class="descB" onclick="slay2()">How I see Myself</h6>  
+                        </a>
+                        <a href="#">
+                            <h6 class="descB" onclick="slay3()">How I am seen</h6>
+                        </a>
+                        <a href="#">
+                            <h6 id="extr" class="descB" onclick="slay4()">My Schedule</h6>
+                        </a>
+                    </div>
+                    <!--Descriptions-->
+                    <div id="yuh" class="yuhs" STYLE="display:none">
+                    <div id="leftInfo">
+                        <h3><u><b>
+                            ★ Get to know me ★
+                        </h3></u></b>
+                        <p>
+                            I am a student at <u>STI Ortigas Cainta</u> and I am striving to learn different things to achieve my dream job. I want to continue expanding my knowledge about Web Development because I want to work as a <u>Web Developer or a Web Designer</u>. I am <u>17</u> years old, Born on <u>November 7, 2005</u> in <u>Batac, Ilocos Norte</u>. I am currently living in <u>Cainta, Rizal</u>.
+                        </p>
+                    </div>
+                    <div id="rightInfo">
+                        <h3><u><b>
+                            ★ My Interests ★
+                        </h3></u></b>
+                        <p>
+                            - Writing Poems<br/>
+                            - Crochet <br/>
+                            - Playing games<br/>
+                            - Reading Manhwas<br/>
+                            - etc.
+                        </p>
+                    </div>
+                    <div id="underInfo">
+                        <h3 id="contact">
+                            ★ Contacts ★
+                        </h3>
+                        <h4 class="text">
+                            Email Address: maimaialezzandra@gmail.com <br/>
+                            School Email: gregorio.299207@ortigas-cainta.sti.edu.ph
+                        </h4>
+                        </div>
+                        <h4>
+                            (Click X to go back)
+                        </h4>
+                    </div>
+                    <div id="yuh2" class="yuhs" STYLE="display:none">
+                        <h2>
+                            ★ How I see Myself ★
+                        </h2>
+                        <img id="pic1" class="pics" src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t1.18169-9/311912_109978169116204_81608779_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeGSHpyyKryioLe21K7cgsP0Tg4tqk3YhgdODi2qTdiGBzui-pS74Hse3W2F4AQqXVlEHPtH2XZuhnjxJjDYNz1S&_nc_ohc=69_ej326MBoAX932_Kj&_nc_ht=scontent.fmnl9-2.fna&oh=00_AfCWqsM66sE4oe7JaeSyFiCoSFgFOKJkeADaDOvIajoHwA&oe=6524FFB3" />
+                        <p>I see myself as...</p>
+                        <img class="pics" src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t1.6435-9/70315739_128692895091613_129878363627061248_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeEzinfgYuhh28a-3PSr7kkxC6qjXKxynEALqqNcrHKcQGo57sUKJFbUVfVBcJOqKCIprHfIz9sX45pEGHz6eTPJ&_nc_ohc=Zc8Se2tzmvEAX-xWQcf&_nc_ht=scontent.fmnl9-2.fna&oh=00_AfB3jmJRib-utyawp1yWJjTLwn1hfPSroFvatdD24YF5JA&oe=6525D35C" />
+                        <p>Someone who loves to explore</p>
+                        <img class="pics" src="https://scontent.fmnl9-4.fna.fbcdn.net/v/t1.6435-9/69733096_128692848424951_8114056605059776512_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeG8RkHe-R5Jl-zuG8J_Ri5xI4sNt6JpQiQjiw23omlCJP8YGweoSVqwSRyQnSjFSGij9MrM2oqrmFQCVt8ubRsL&_nc_ohc=GxF7m4t6VzQAX8zIwjV&_nc_ht=scontent.fmnl9-4.fna&oh=00_AfCWz7IaXRhlU6qh2-uKnNr7m9VRm50t2s9ACOhiyEDKHg&oe=6525B849" />
+                        <p>Someone who likes to try out new hobbies</p>
+                        <img class="pics" src="https://scontent.fmnl9-4.fna.fbcdn.net/v/t1.18169-9/380975_283607701753249_487758552_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeFRDUQAu5y44baTGh9a4e8bZBNRhl1sAZlkE1GGXWwBmQoUGn8TiTmIJ6hWzv7ZweMNw4p9_ojUL8quM5s_nDAH&_nc_ohc=DE-JRIycsIsAX_49EVH&_nc_ht=scontent.fmnl9-4.fna&oh=00_AfD3_V825z0O-Uvt8q0RDiQzlURS5__ecCJaS37NGNNDIg&oe=6524E785" />
+                        <p>Someone who always tries to do her best in school</p>
+                        <img class="pics" src="https://scontent.fmnl9-3.fna.fbcdn.net/v/t1.18169-9/561531_283609568419729_948943271_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeEdIl61MvhAUoe7r0bc_WAYvpxN5NB5j7a-nE3k0HmPttW-9_mp4SvubVMcnHuQBPk8pQX04r3cbq0oOQ9iJ0eR&_nc_ohc=TkL2wIqn_V8AX_a-kPf&_nc_ht=scontent.fmnl9-3.fna&oh=00_AfADMbcZUvvlsbYEM3FxzXDhKu2IA7qkzqL0nhiV2DlU5g&oe=6525D7CF" />
+                        <p>Someone with a loving family</p>
+                        <div id="fr1">
+                        <img class="pics" src="https://scontent.fmnl4-4.fna.fbcdn.net/v/t39.30808-6/377505245_6616531828460773_8582321320829777603_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeHnz9lDRN2B-dYhgSouuRzY5gKrn5LirrrmAqufkuKuunlULeKADuh7F1NKb8a6-sahPxgQr9vaMQgHDPSM2Ota&_nc_ohc=9NSSz_HImfIAX-8LMzJ&_nc_ht=scontent.fmnl4-4.fna&oh=00_AfC6nj-nAqrSvnRLuEH4Ej7uaJR-o3p4IlqAW0q3ZmJpog&oe=6510BE4D" />
+                        </div>
+                        <div id="fr2">
+                        <img class="pics" src="https://scontent.fmnl4-1.fna.fbcdn.net/v/t39.30808-6/377502184_6616532068460749_1305560060245736215_n.jpg?stp=cp6_dst-jpg_p720x720&_nc_cat=103&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeE67wNazHu1ZHfuM6SRveqdvmL7KqZ4wk--YvsqpnjCT0Eauwi5MRV5ToCBJLpaBwYd93d4rtPnDK4ihnd7uFaz&_nc_ohc=M_hJ4xOAqv4AX8RYZbq&_nc_ht=scontent.fmnl4-1.fna&oh=00_AfAtw1JEoqsH6hLgx37iWLKLaDv3eUfO3Zg7aUGj7FVXlQ&oe=650FE354"/>
+                        </div>
+                        <div id="textFr" style="clear: both; padding-top: 40%;">
+                        <p>Someone with loving friends</p>
+                        <p style="font-size: 90%;">(I luv them sm<33) </p>
+                        </div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <h1 style="padding-top: 10%; padding-bottom: 10%;">And lastly...</h1>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <h1>...</h1>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <h1>...</h1>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <h1>...</h1>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <img class="pics" src="https://scontent.fmnl4-4.fna.fbcdn.net/v/t39.30808-6/225285170_505173174110248_5183278696341547391_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeGeFEHRC5JQDtjYDQaOeHQmhSWPLFqkq-GFJY8sWqSr4Y7VhvG-HDYFaaJBBbSFUiLQ4HZK0G34ghaPfeArX9OK&_nc_ohc=tE-HrSvhDVoAX99wzZi&_nc_ht=scontent.fmnl4-4.fna&oh=00_AfDV0h0lA-dyvesukbTtzj4x5RrFSsfXnjm-a4HPP3VvMg&oe=650F78A9" />
+                        <p>I see myself as me</p>
+                        <p style="font-size: 90%;">(Photo from 2021)</p>
+                        <br/>
+                        <br/>
+                        <p style="padding: 10%; background-color: #fcc4d0;">
+                            ★★★ <br/><br/> I love myself. I'm really proud that I've survived despite everything I've gone through. I recognize that I have weaknesses, but I know that I also have my strengths. My friends are people I can always count on. They hold a special place in my heart. Although I don't take pictures of myself that often because I'm not that confident with my appearance, I generally have a positive self-image; I believe I can overcome challenges and grow as a person. <br/><br/> ★★★
+                        </p>
+                        <h4>
+                            (Click X to go back)
+                        </h4>
+                    </div>
+                    <div id="yuh3" class="yuhs" STYLE="display:none">
+                        <h2>
+                            ★ How I am seen ★
+                        </h2>
+                        <img class="pics" style="height: 140%; width: auto;" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmh4cGY2cWljdTliemo5d2U5N2toM2hibDI4ZHB1M20xZG0zb3loMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ArljMCsMgsFRAz9zRb/giphy.gif"/>
+                        <iframe style="padding-top: 5%;" width="50%" height="auto" src="https://www.youtube.com/embed/KcX-fyZiry0?si=MH7iDfAUifppFfC2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p style="padding: 5%">According to Akaye, she said she reminds me of this audio</p>
+                        <img class="pics" src="https://scontent.fmnl4-6.fna.fbcdn.net/v/t39.30808-6/376751218_6618183568295599_2785350286172929777_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeHmZF5D_bMsO5OpCjij_O3atRGJNEbtGiy1EYk0Ru0aLDj3ESlH7MZhcx_t4-0fmpBvkL_uUwPkZxNJaTGD3SPX&_nc_ohc=PQIJ1uKayNAAX-h6T98&_nc_ht=scontent.fmnl4-6.fna&oh=00_AfBmba7y7I459fNjoc_F60KbGlSciQRny1tW0x56sSiqLA&oe=650F20AA" />
+                        <p style="padding: 5%">According to Jaimie, she describes me as someone who is usually silent and calm</p>
+                        <img class="pics" src="https://scontent.fmnl4-6.fna.fbcdn.net/v/t39.30808-6/377488023_6618252661622023_4056578077764707264_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeGE1AR43u42jldoxWhv-UZGqkyfBoLx2NSqTJ8GgvHY1AtIn1aNOD3irWCiqVLRZB2v5W73MRjnH8huv6iMqpUS&_nc_ohc=5HFP6B8EKH4AX9FDDzh&_nc_ht=scontent.fmnl4-6.fna&oh=00_AfCmgCXOl9SRcR9E0uxxD_J9Gz45DI5vCkiY-U4MhZho1w&oe=650EE2F0" />
+                        <p style="padding: 5%">According to Tan, he sees me as a game buddy that solves horror puzzles along with him</p>
+                        <p style="padding: 10%; background-color: #fcc4d0;">
+                            ★★★ <br/><br/> After asking people around me how they see me, overall, my mother sees me as a timid but friendly person; my brother sees me as a clever elder sister; some of my friends even consider me as a parent figure or a sibling; and some of them see me as an easy going person.<br/><br/> ★★★
+                        </p>
+                        <h4>
+                            (Click X to go back)
+                        </h4>
+                    </div>
+                    <div id="yuh4" class="yuhs" STYLE="display:none">
+                        <!--Daily Schedule-->
+                        <table border="1" align="center">
+                            <tr>
+                                <td colspan="3">
+                                    My Daily Schedule
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Days</td>
+                                <td>School</td>
+                                <td>Vacant</td>
+                            </tr>
+                            <tr class="tbl">
+                                <td>Monday</td>
+                                <td>11:30am - 7:00pm</td>
+                                <td rowspan="4">8:00am - 10:00am</td>
+                            </tr>
+                            <tr class="tbl">
+                                <td>Tuesday</td>
+                                <td>1:00pm - 7:00pm</td>
+                            </tr>
+                            <tr class="tbl">
+                                <td>Wednesday</td>
+                                <td>11:30am - 4:00pm</td>
+                            </tr>
+                            <tr class="tbl">
+                                <td>Thursday</td>
+                                <td>11:30am - 7:00pm</td>
+                            </tr>
+                            <tr class="tbl">
+                                <td>Friday</td>
+                                <td>No Classes</td>
+                                <td>8:00am - 9:00pm</td>
+                            </tr>
+                            <tr class="tbl">
+                                <td>Saturday</td>
+                                <td>11:30am - 4:00pm</td>
+                                <td>8:00am - 10:00am</td>
+                            </tr>
+                            <tr class="tbl">
+                                <td>Sunday</td>
+                                <td>No Classes</td>
+                                <td>8:00am - 9:00pm</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="yuh5" STYLE="display:none">
+                        <img class="jade" src="https://i.pinimg.com/564x/7f/8f/a8/7f8fa802c2d877a540d049c57e234f06.jpg"/>
+                    </div>
+                <DIV id="lastPart" align="center">
+                </DIV>
+            </DIV>
+        </DIV>
+    </body>
+</html>
