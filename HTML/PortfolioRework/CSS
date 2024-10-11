@@ -1,0 +1,265 @@
+body 
+{
+    background-color: #ededed;
+}
+
+/*para mapunta sa gitna ung box*/
+#mainBody{
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+    animation: slide-in 1000ms;
+}
+
+@keyframes slide-in {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translate(-50%, -50%);
+    }
+}
+
+.topPart{
+    margin: 1%;
+    min-width: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+#exitSym{
+    float:right;
+    padding-right: 1%;
+}
+
+/*To make symbols go left*/
+.material-symbols-rounded{
+    float: left;
+}
+
+/*SearchBar*/
+.searchBar {
+    border: none;
+    font-size: 120%;
+    width: 50%;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Page{
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#top{
+    background-image: linear-gradient(#ffdcdc, white);
+    display: flex;
+    min-width: 0;
+}
+
+/*Profile hihi*/
+#myPic{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.head{
+    font-family: 'Courier New', Courier, monospace;
+    color: #0b0404;
+    cursor: default;
+}
+
+#h2{
+    padding-left: 2%;
+    font-size: 100%;
+}
+
+/*div for the bar*/
+.clicks{
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fcc4d0;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 5%;
+}
+
+/*clickables*/
+.descB{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fcc4d0;
+    color: #0b0404;
+    font-size: 80%;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    height: 100%;
+    padding: 5%;
+    margin: 0;
+}
+
+/*changes color on hover*/
+.descB:hover {
+    background-color: #932641;
+    color: white;
+}
+
+.material-symbols-rounded:hover{
+    color: #fcc4d0;
+}
+
+
+/*text inside*/
+#yuh, #yuh2, #yuh3{
+    max-height: 100px;
+}
+
+.yuhs{
+    overflow: hidden;
+    overflow-y: auto;
+    text-align: center;
+    margin: 5%;
+    padding: 0%;
+    padding-bottom: 5%;
+    color: #0b0404;
+    font-size: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.yuhs::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+.yuhs::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+}
+ 
+.yuhs::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    height: 25%;
+    background-color: #932641;
+}
+
+#yuh, #yuh2, #yuh3, #yuh5{
+    background-color: white;
+    position: absolute;
+    box-shadow: 10px 10px 5px lightblue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    top: 12%;
+    left: 0;
+    margin: 0;
+    padding-bottom: 40%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#leftInfo{
+    max-width: 50%;
+    float: left;
+    padding: 5%;
+    background-color: #fcc4d0;
+}
+
+#rightInfo{
+    max-width: 50%;
+    display: inline;
+    padding: 5%;
+    height: 100%;
+}
+
+#underInfo{
+    clear: both;
+    background-color: #ffdcdc;
+    padding: 5%;
+}
+
+#fr1{
+    margin-top: 2%;
+    max-width: 70%;
+    float: left;
+    position: absolute;
+}
+
+#fr2{
+    margin: 0;
+    max-width: 50%;
+    position: absolute;
+    display: inline;
+}
+
+.pics{
+    margin-top: 5%;
+    height: fit-content;
+    width: 50%;
+    align-items: center;
+    border: 5px solid #932641;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+/*table*/
+table{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    border:2px solid #592626;
+    background-color: #fcc4d0;
+    border-collapse: collapse;
+    color: #2f1412;
+    cursor: default;
+}
+
+.tbl{
+    font-size: 100%;
+    cursor: default;
+}
+
+.jade{
+    max-width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    animation: jadeHi 1500ms;
+}
+
+
+@keyframes jadeHi {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    60% {
+      transform: scale(4);
+      opacity: 0;
+    }
+    70% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*bottom*/
+#lastPart{
+    padding-bottom: 5%;
+}
