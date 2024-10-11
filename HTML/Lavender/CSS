@@ -1,0 +1,74 @@
+#div1
+{
+    position: absolute;
+}
+.textt
+{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.inline
+{
+    display: inline ;
+}
+#sec
+{
+    transform: rotate(160deg);
+    transform-origin: 50% 50%;
+}
+#thi
+{
+    transform: rotate(140deg);
+    transform-origin: 50% 50%;
+}
+#fou
+{
+    transform: rotate(20deg);
+    transform-origin: 50% 50%;
+}
+#fif
+{
+    transform: rotate(40deg);
+    transform-origin: 50% 50%;
+}
+#ayaw
+{
+    transform: rotate(350deg);
+    transform-origin: 50% 50%;
+}
+#ko
+{
+    transform: rotate(350deg);
+    transform-origin: 50% 50%;
+}
+#na
+{
+    transform: rotate(30deg);
+    transform-origin: 50% 50%;
+}
+#uwu
+{
+    transform: rotate(20deg);
+    transform-origin: 50% 50%;
+}
+#hatdog
+{
+    transform: rotate(340deg);
+    transform-origin: 50% 50%;
+}
+#ehtlog
+{
+    transform: rotate(325deg);
+    transform-origin: 50% 50%;
+}
+#notepad
+{
+    transform: rotate(340deg);
+    transform-origin: 50% 50%;
+}
+#sticck
+{
+    transform: rotate(30deg);
+    transform-origin: 50% 50%;
+}
