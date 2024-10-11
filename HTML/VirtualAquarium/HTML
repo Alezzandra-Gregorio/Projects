@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="title">
+            <b>Learn About the Wonders of the Sea
+            </b>
+        </div>
+        <div class="mainContent">
+            <img id="jellyImg" src="https://upload.wikimedia.org/wikipedia/commons/5/58/Jellyfish%2C_Shaw_Ocean_Discovery_Centre_%287201323966%29.png">
+            <img id="mantaImg" src="https://static-wos.saveourseas.com/2021/06/reef-manta-ray-copy-copy.png">
+            <img id="sharkImg" src="https://www.fisheries.noaa.gov/s3/styles/original/s3/2023-09/640x427-Shark-Sandbar-NOAAFisheries.png?itok=USITcDC9">
+            <img id="starImg" src="https://static.vecteezy.com/system/resources/previews/024/705/110/original/starfish-with-ai-generated-free-png.png">
+        </div>
+        <div class="descContent">
+            <div id="jellyfish">
+                <h2>☆ Jellyfish ☆</h2>
+                <p><b>Common Name:</b> Jellyfish <br/><br/>
+                    <b>Scientific Name:</b> Cnidaria <br/><br/>
+                    <b>Average Lifespan in the Wild:</b> 3 to 6 months <br/><br/>
+                    <b>Average Lifespan in Captivity:</b> 1 to 3 years <br/><br/>
+                    <b>IUCN Red List Status:</b> Least concern to critically endangered, depending on the species <br/><br/>
+                    <b>Current Population:</b> Unknown <br/><br/></p>
+                <p><b>☆ D.Y.K.</b> <br/> Jellyfishes are Cnidarians which means that
+                    their digestive system happens through a singe hole only
+                </p>
+            </div>
+            <div id="mantaRay">
+                <h2>☆ Manta Rays ☆</h2>
+                <p><b>Common Name:</b> Manta Ray <br/><br/>
+                    <b>Scientific Name:</b> Mobula birostris <br/><br/>
+                    <b>Average Lifespan in the Wild:</b> Up to 50 years <br/><br/>
+                    <b>Average Lifespan in Captivity:</b> Unknown <br/><br/>
+                    <b>IUCN Red List Status:</b> Vulnerable <br/><br/>
+                    <b>Current Population:</b> over 22,000 <br/><br/></p>
+                <p><b>☆ D.Y.K.</b> <br/> Manta Rays' mouths are located at the front, 
+                allowing water to flow over their gills while they swim. 
+                </p>
+            </div>
+            <div id="shark">
+                <h2>☆ Sharks ☆</h2>
+                <p><b>Common Name:</b> Shark <br/><br/>
+                    <b>Scientific Name:</b> Selachimorpha <br/><br/>
+                    <b>Average Lifespan in the Wild:</b> 20 to 70 years <br/><br/>
+                    <b>Average Lifespan in Captivity:</b> Unknown <br/><br/>
+                    <b>IUCN Red List Status:</b> Some species of sharks are listed as Least Concern, 
+                    while others, like the Great White Shark, are listed as Vulnerable. <br/><br/>
+                    <b>Current Population:</b> Varies by species <br/><br/></p>
+                <p><b>☆ D.Y.K.</b> <br/> Today's scientists believe there are more than 
+                400 different species of sharks in the world: <b>Dwarf Lanternshark</b> being the smallest
+                and <b>Whale Shark</b> being the largest.
+                </p>
+            </div>
+            <div id="starfish">
+                <h2>☆ Starfish ☆</h2>
+                <p><b>Common Name:</b> Starfish <br/><br/>
+                    <b>Scientific Name:</b> Asteroidea <br/><br/>
+                    <b>Average Lifespan in the Wild:</b> 5 to 35 years <br/><br/>
+                    <b>Average Lifespan in Captivity:</b> Unknown <br/><br/>
+                    <b>IUCN Red List Status:</b> Critically endangered :( <br/><br/>
+                    <b>Current Population:</b> Unknown <br/><br/></p>
+                <p><b>☆ D.Y.K.</b> <br/> Despite their name, starfish are not fish; they are echinoderms, 
+                related to sea urchins and sea cucumbers.
+                </p>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="references">
+            <h1>References</h1>
+            <a href="https://www.treehugger.com/fascinating-facts-about-jellyfish-4858789"><b>☆ JellyFishes ☆</b></a>
+            <p>Nelson, B. (2022, April 8). 12 Fascinating Facts about Jellyfish. Treehugger. https://www.treehugger.com/fascinating-facts-about-jellyfish-4858789</p>
+            <a href="https://en.wikipedia.org/wiki/Giant_oceanic_manta_ray"><b>☆ Manta Rays ☆</b></a>
+            <p>Wikipedia contributors. (2023, December 3). Giant oceanic manta ray. Wikipedia. https://en.wikipedia.org/wiki/Giant_oceanic_manta_ray</p>
+            <a href="https://en.wikipedia.org/wiki/Shark"><b>☆ Sharks ☆</b></a>
+            <p>Wikipedia contributors. (2023, December 3). Shark. Wikipedia. https://en.wikipedia.org/wiki/Shark</p>
+            <a href="https://en.wikipedia.org/wiki/Starfish"><b>☆ Starfish ☆</b></a>
+            <p>Wikipedia contributors. (2023b, November 20). Starfish. Wikipedia. https://en.wikipedia.org/wiki/Starfish</p>
+            <p>Biologist helps place starfish on critically endangered list. (2020, December 11). CALS. https://cals.cornell.edu/news/biologist-helps-place-starfish-critically-endangered-list#:~:text=Citing%20a%2090%25%20decline%20in,that%20it%20is%20critically%20endangered.</p>
+        </div>
+	</body>
+</html>
