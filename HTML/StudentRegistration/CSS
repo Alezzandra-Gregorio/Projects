@@ -1,0 +1,69 @@
+body 
+{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower.png");
+    background-attachment: fixed;
+}
+
+.header
+{
+    background-color: rgb(234, 253, 252);
+    border-style: dashed;
+    border-width: 3px;
+    border-color: rgb(95, 95, 138);
+    height: 115px;
+    color: black;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.intro_1
+{
+    background-color: rgb(234, 253, 252);
+    border-style: dashed;
+    border-width: 3px;
+    border-color: rgb(95, 95, 138);
+    color: black;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+
+#text
+{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.intro_2
+{
+    background-color: rgb(234, 253, 252);
+    border-style: dashed;
+    border-width: 3px;
+    border-color: rgb(95, 95, 138);
+    color: black;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+
+ul
+{
+    font-size: 15px;
+    list-style-type: square;
+}
+
+.main
+{
+    background-color: rgb(234, 253, 252);
+    border-style: dashed;
+    border-width: 3px;
+    border-color: rgb(95, 95, 138);
+    color: black;
+    padding: 20px;
+}
+
+p.form
+{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
