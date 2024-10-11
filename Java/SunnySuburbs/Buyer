@@ -1,0 +1,3 @@
+class Buyer extends Account {
+    int Wallet = 5000;
+}
