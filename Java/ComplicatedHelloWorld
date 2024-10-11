@@ -1,0 +1,77 @@
+//Hat class
+public class Hat{
+    private String valHat;
+    //getter
+    public String getValHat() {
+        return valHat;
+    }
+    //setter
+    public void setValHat(String h) {
+        this.valHat = h;
+    }
+}
+
+
+public class MyClass
+{
+    static void Egg() {
+    String[] Letters = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
+        System.out.print(Letters[4]);
+}
+    //main method
+    public static void main(String[] args) {
+        Hat h = new Hat();
+        h.setValHat("H"); //for letter "H"
+        System.out.print(h.getValHat());
+        Egg(); //for letter "e"
+
+        for(int x = 1; x <=2; x++) {
+            System.out.print("l"); //prints "l" two times
+        if (x == 2){
+            System.out.print("o" + " "); //for letter o and space
+        }
+        }
+
+        int[][] sample = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} };
+            int x = sample[1][2];
+        String[] newLetters = { "H", "E", "L", "L", "O", " ", "W", "O", "R", "L", "D"};
+            System.out.print(newLetters[x]); //for letter "W"
+
+        String[] Arr = new String[11];
+
+        Arr[0] = "h";
+        Arr[1] = "e";
+        Arr[2] = "l";
+        Arr[3] = "l";
+        Arr[4] = "o";
+        Arr[5] = " ";
+        Arr[6] = "w";
+        Arr[7] = "o";
+        Arr[8] = "r";
+        Arr[9] = "l";
+        Arr[10] = "d";
+
+        if (Arr.length < 3){
+            System.out.print(Arr[9]);
+        }
+        else {
+            System.out.print(Arr[7]); //prints "o"
+        }
+        
+        System.out.print(Arr[8]); //prints "r"
+
+        int y = 6;
+
+        while(y < 9)
+        {
+        y++;
+        }
+        System.out.print(Arr[y]); //prints "l"
+        
+        int j = 122 + 21;
+        int c = j - 133;
+        
+        System.out.print(Arr[c]); //prints "d"
+        System.out.print("!");//simplest way to print text in java / prints "!"
+    }
+}
