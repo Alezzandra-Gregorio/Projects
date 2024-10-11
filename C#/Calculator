@@ -1,0 +1,84 @@
+using System;
+
+class Program
+{
+    //methods for operators (executes in switch)
+    static int add(int x, int y) {
+        return x + y;
+    }
+
+    static int subtract(int x, int y) {
+        return x - y;
+    }
+
+    static int multiply(int x, int y) {
+        return x * y;
+    }
+
+    static int divide(int x, int y) {
+        if (y == 0) 
+        {
+            //displays when user inputs divisor as 0 (math rule, cannot divide by zero (0))
+            Console.WriteLine("Cannot divide by 0");
+            return 0;
+        }
+        return x / y;
+    }
+    
+    static void Main(string[] args) {
+        
+        Console.WriteLine("Calculator :D (input 'exit' on x to stop the program)");
+        
+        do
+        {
+    
+            Console.Write("x = ");
+            string str = Console.ReadLine();
+            
+            if (str == "exit")
+            {
+                //when user inputs "exit" program stops
+                Console.WriteLine("Program has stopped");
+                break;
+            }
+        
+            //c# exceptions in w3schools 
+            try
+            {
+                
+                int x = Convert.ToInt32(str);
+                int result;
+        
+                Console.Write("operator (+, -, *, /) = ");
+                char operatorSymbol = Convert.ToChar(Console.ReadLine());
+                Console.Write("y = ");
+                int y = Convert.ToInt32(Console.ReadLine());
+
+                switch (operatorSymbol)
+                {
+                case '+':
+                    result = add(x, y);
+                    break;
+                case '-':
+                    result = subtract(x, y);
+                    break;
+                case '*':
+                    result = multiply(x, y);
+                    break;
+                case '/':
+                    result = divide(x, y);
+                    break;
+                default:
+                    Console.WriteLine("Only input arithmetic operators please (+, -, *, /)");
+                    return;
+            }
+            Console.WriteLine("Result: " + result);
+            }
+            //prints when users enter a non-int data type
+            catch (FormatException)
+            {
+            Console.WriteLine("Invalid input, please only enter correct data types");
+            }
+        } while (true);
+    }
+}
