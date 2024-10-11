@@ -1,0 +1,32 @@
+//similar to onLoad function (all p child of the desc class)
+$(document).ready(function(){
+    $(".descContent p, h2").hide();
+});
+
+//to show element (jellyfish)
+$(document).ready(function(){
+  $("#jellyImg").click(function(){
+    $("#jellyfish p, #jellyfish h2").toggle(1000);
+  });
+});
+
+//to show element (manta ray)
+$(document).ready(function(){
+  $("#mantaImg").click(function(){
+    $("#mantaRay p, #mantaRay h2").toggle(1000);
+  });
+});
+
+//to show element (shark)
+$(document).ready(function(){
+  $("#sharkImg").click(function(){
+    $("#shark p, #shark h2").toggle(1000);
+  });
+});
+
+//to show element (star fish)
+$(document).ready(function(){
+  $("#starImg").click(function(){
+    $("#starfish p, #starfish h2").toggle(1000);
+  });
+});
