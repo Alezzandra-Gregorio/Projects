@@ -1,0 +1,21 @@
+svg {
+  height: 100%;
+}
+
+#sprinkles {
+  clip-path: url(#Icing);
+}
+
+.Title {
+    font: bold 100px sans-serif;
+    fill: #382E21;
+    paint-order: stroke;
+    stroke: #fff8e3;
+    stroke-width: 10px;
+    
+}
+
+.Subtitle {
+    font: italic 25px serif;
+    fill: #382E21;
+}
