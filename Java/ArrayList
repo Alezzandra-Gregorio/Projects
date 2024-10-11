@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class MyClass
+{
+    public static void main(String[] args) {
+    
+        Scanner scan = new Scanner(System.in);
+        
+        ArrayList<String> objects = new ArrayList<String>(5);
+        int obj = 0;
+        while(obj<=4){
+        System.out.print("Enter a character's name: ");
+        objects.add(scan.nextLine());
+        obj++;
+        }
+            
+        try {
+            System.out.println("You have " + objects.size() + " characters in your list.");
+            System.out.print("Enter a number to display the character: ");
+            int num;
+            num = scan.nextInt();
+            System.out.println("The character in the number (" + num + ") is " + objects.get(num));
+        }
+        catch (IndexOutOfBoundsException e)
+        {
+            System.out.print("An error occured");
+        }
+    }
+}
