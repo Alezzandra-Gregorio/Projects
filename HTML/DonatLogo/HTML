@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+		<svg height="500" width="700" style="background-color:FFF8E3;">
+             <!--donut-->
+            <circle cx="350" cy="250" r="200" fill="#7F6A4C" />
+            <circle cx="350" cy="250" r="190" fill="#d5b07c" />
+            <circle cx="350" cy="250" r="160" fill="#E200E2" />
+            <circle cx="350" cy="250" r="150" fill="#ff02fd" />
+
+            <clipPath id="Icing">
+                <circle id="sprinkles" cx="350" cy="250" r="150" fill="#ff02fd" />
+            </clipPath>
+
+            <image xlink:href="https://clipart-library.com/2023/jTxo4x6rc.png" x="0" y="0" width="800" height="500" style="clip-path: url(#Icing);" />
+
+            <circle cx="350" cy="250" r="60" fill="#7F6A4C" />
+            <circle cx="350" cy="250" r="50" fill="#FFF8E3" />
+
+
+            <!--text-->
+            <text x="100" y="450" class="Title">DONAT</text>
+            <text x="150" y="470" class="Subtitle">Developers Of the Next Advanced Technology</text>
+        </svg>
+	</body>
+</html>
