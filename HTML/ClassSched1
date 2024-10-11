@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sched</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td align="center" colspan="4">Class Schedule</td>
+            </tr>
+            <tr>
+                <td align="center">Monday</td>
+                <td align="center">Tuesday</td>
+                <td align="center">Thursday</td>
+                <td align="center">Friday</td>
+            </tr>
+            <tr>
+                <td align="center">General Mathematics <br/> (Room 204) <br/> 10:00am - 11:30am</td>
+                <td align="center">Computer/Web Programming 1 <br/> (Room 202) <br/> 7:00am- 8:30am <br/> (Room 212) <br/> 8:30am - 10:00am </td>
+                <td align="center">Physical Education and Health 1 <br/> (GYM1) <br/> 7:00am - 9:00am</td>
+                <td align="center">Computer/Web Programming 2 <br/> (Room 202) <br/> 7:00am-8:30am <br/> (Room 212) <br/> 8:30-10:00am </td>
+            </tr>
+            <tr>
+                <td align="center">Break <br/> 11:30am - 1:00pm</td>
+                <td align="center">Media and Information Literacy<br/> (Room 202) <br/> 10:00am - 11:30am</td>
+                <td align="center">Break<br/>9:00am - 10:00am</td>
+                <td align="center">Media and Information Literacy<br/> (Room 212) <br/> 10:00am - 11:30am</td>
+            </tr>
+            <tr>
+                <td align="center">Oral Communication<br/> (Room 204) <br/> 1:00pm - 2:30pm</td>
+                <td align="center">Break<br/> 11:30am - 1:00pm</td>
+                <td align="center">General Mathematics<br/> (Room 204) <br/> 10:00am - 11:30am</td>
+                <td align="center">Break<br/>11:30am - 1:00pm</td>
+            </tr>
+            <tr>
+                <td align="center">21st Century Literature from the Philippines and the World<br/> (Room 204) <br/> 2:30pm - 4:00pm</td>
+                <td align="center">Introduction to the Philosophy of a Human Person<br/> (Room 203) <br/> 1:00pm - 2:30pm</td>
+                <td align="center">Break<br/>11:30am - 1:00pm</td>
+                <td align="center">Introduction to the Philosophy of a Human Person<br/> (Room 203) <br/>1:00pm - 2:30pm</td>
+           </tr>      
+                <tr>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="center">Oral Communication<br/> (Room 204) <br/>1:00pm - 2:30pm</td>
+                <td align="center"></td>
+            </tr>
+             <tr>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="center">21st Century Literature from the Philippines and the World<br/> (Room 204) <br/>2:30pm - 4:00pm</td>
+                <td align="center"></td>
+            </tr>
+             <tr>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="center">Homeroom Gr 11-1st Termm<br/> (Room 607) <br/>4:00pm - 5:00pm</td>
+                <td align="center"></td>
+            </tr>
+        </table>
+    </body>
+</html>
