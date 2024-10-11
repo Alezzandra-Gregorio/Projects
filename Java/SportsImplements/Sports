@@ -1,0 +1,9 @@
+public interface Sports {
+    
+    public void setHomeTeam();
+    public void setVisitingTeam();
+    public void Hfoul();
+    public void Hlost();
+    public void Vfoul();
+    public void Vlost();
+}
