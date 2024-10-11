@@ -1,0 +1,39 @@
+$(document).ready(function(){
+    $(".content p, h2").hide();
+
+    $(".span").click(function(){
+        $(".span").toggleClass("red");
+        $("#spanTXT p").toggle(500);
+    });
+
+    $(".directParent").click(function(){
+        $(".directParent").toggleClass("red");
+        $("#directTXT p").toggle(500);
+    });
+
+    $(".grandparent").click(function(){
+        $(".grandparent").toggleClass("red");
+        $("#grandTXT p").toggle(500);
+    });
+
+    $(".greatGrandparent").click(function(){
+        $(".greatGrandparent").toggleClass("red");
+        $("#greatTXT p").toggle(500);
+    });
+
+    $(".parentsUntil").click(function(){
+        $("span").parentsUntil("div").toggleClass("red");
+    });
+
+    //all ancestor
+    $(".italicize").click(function(){
+        var allAncestor = $("span").parents();
+        allAncestor.toggleClass("italicize");
+    });
+
+    //direct parent
+    $(".customBorder").click(function(){
+        var directParent = $("span").parent();
+        directParent.toggleClass("blue");
+    });
+});
