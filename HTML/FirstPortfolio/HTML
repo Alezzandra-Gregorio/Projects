@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Webpage</title>
+    </head>
+    <body bgcolor="black">|
+        <!-- About Me -->
+        <div id="test">
+        </div>
+        <br/>
+        <img src="https://cdn-icons-png.flaticon.com/512/42/42435.png" align="left" height="220" width="220"/>
+        <div style="background-color:#750E0E; padding:20px;">
+            <H1 id="about">About Me</H1>
+            <H3 id="about">- A MAWD student from STI Ortigas Cainta eager <br/> to learn more about HTML</H3>
+            <br/>
+            <br/>
+        </div>
+        <div>
+            <H1 id="header" align="left">
+                Hi! My name is <H1 class="highlight"><i>Alezzandra Isabel B. Gregorio</i></H1>
+            </H1>
+            <p id="header">
+                I am a student at STI Ortigas Cainta and I am striving to learn different things to achieve my dream job. I want to continue expanding my knowledge about HTML because I want to work in the IT field.
+                    I am 16 years old, Born on November 7, 2005 in <a href="https://en.wikipedia.org/wiki/Batac">Batac, Ilocos Norte</a>. I am currently living in <a href="https://en.wikipedia.org/wiki/Cainta">Cainta, Rizal.</a>
+            </p>
+            <H2 class="text">
+                My Contacts:
+            </H2>
+            <p class="text">
+                <b>Email Address:</b> maimaialezzandra@gmail.com <br/>
+                <b>School Email:</b> gregorio.299207@ortigas-cainta.sti.edu.ph </br>
+            </p>
+            <H2 class="text">
+                When am I free?
+            </H2>
+            <table border="1">
+                <tr>
+                    <td colspan="3">
+                        My Daily Schedule
+                    </td>
+                </tr>
+                <tr>
+                    <td>Days</td>
+                    <td>School</td>
+                    <td>Vacant</td>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>10:00am - 4:00pm</td>
+                    <td>4:30pm - 10:00pm</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>7:00am - 2:30pm</td>
+                    <td>3:00pm - 10:00pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>No Classes</td>
+                    <td>10:00am - 10:00pm</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>7:00am - 5:00pm</td>
+                    <td>5:30pm - 10:00pm</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>7:00am - 2:30pm</td>
+                    <td>3:00pm - 10:00pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>No Classes</td>
+                    <td>10:00am - 10:00pm</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>No Classes</td>
+                    <td>10:00am - 10:00pm</td>
+                </tr>
+            </table>
+            <br/>
+        </div>
+        <div/>
+        <!-- My Projects -->
+        <img src="http://www.clker.com/cliparts/i/7/O/H/v/m/black-butterfly.svg.hi.png" align="left" height="80" width="90"/>
+        <div style="background-color:#750E0E; padding:1px;">
+            <H1 id="about">My Projects</H1>
+        </div>
+        <div>
+            <p id="header"> I have worked on projects over the first quarter here in STI. Whenever I have free time I practice exploring more about HTML</p>
+            <H3 class="text"> Some Examples:</H3>
+                <a href="https://www.sololearn.com/compiler-playground/Wvn7rqT98qWR">< Creating SVG ></a><br/>
+                <a href="https://www.sololearn.com/compiler-playground/WouRsxDatrlW">< Making my own organized schedule using tables ></a><br/>
+                <a href="https://www.sololearn.com/compiler-playground/W4dW1T4mW9CH">< Creating a simple website ></a><br/>
+                <a href="https://www.sololearn.com/compiler-playground/WRQVN03daH2A">< Making simple forms ></a><br/>
+                <a href="https://www.sololearn.com/compiler-playground/WwxkZ8j6BWMX">< Etc. ></a>
+            </p>
+        </div>
+    </body>
+</html>
