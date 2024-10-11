@@ -1,0 +1,18 @@
+public class Account{
+    private int Password;
+    String Name;
+    int Age;
+    int IdNum;
+    
+    public void setPassword(int Password) {
+        this.Password = Password;
+    }
+    
+    public int getPassword() {
+        return Password;
+    }
+    
+    static void Thanks() {
+        System.out.println("Thank You For Visiting us!!");
+    }
+}
