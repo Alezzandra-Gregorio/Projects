@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <div class="header">
+        <img src="https://www.freeiconspng.com/thumbs/book-png/book-png-18.png" height="120" width="100" align="left"/>
+        <img src="https://www.freeiconspng.com/thumbs/book-png/book-png-18.png" height="120" width="100" align="right"/>
+            <h5 align="center">Student Registration Form</h5>
+        </div>
+        <br/>
+        <div class="intro_1">
+            <h3>
+                Why register?
+            </h3>
+            <p id="text">
+                We offer SHS students who wish to learn a lot a good-quality education. Our facility welcomes everyone to learn with up-to-date technologies. We monitor students' progress and give them learning methods that are appropriate for them. Last but not least, we offer scholarships and tuition that are affordable for everyone.
+            </p>
+        </div>
+        <br />
+        <div class="intro_2">
+            <h3>
+                Strands we offer:
+            </h3>
+            <ul>
+                <li>Science, Technology, Engineering, Mathematics (STEM)</li>
+                <li>Humanities and Social Sciences (HUMSS)</li>
+                <li>Accountancy, Business and Management (ABM)</li>
+                <li>TVL - Home Economics</li>
+                <li>TVL - ICT</li>
+                <li>Arts and Design</li>
+                <li>Sports Track</li>
+            </ul>
+        </div>
+        <br />
+        <div class="main">
+         <form>
+             <p class="form" ><b> First Name: </b></p>
+             <input type="Text" Name="First_Name" placeholder="Ex. Maria">
+             <p class="form" ><b> Middle Name: </b></p>
+             <input type="Text" Name="Middle_Name" placeholder="Ex. Reyes">
+             <p class="form"><b> Last Name: </b></p>
+             <input type="Text" Name="Last_Name" placeholder="Ex. San Juan">
+             <p class="form"><b> Birthday:</b></p>
+             <input type="date" Name="Birthday">
+             <p class="form"><b> Gender: </b></p>
+             <input type="Radio" Name="Gender" value="Male"> Male <br />
+             <input type="Radio" Name="Gender" value="Female"> Female <br />
+             <p class="form"><b> Adress: </b></p>
+             <input type="Text" Name="Adress" placeholder="Ex. gmail@gmail.com">
+             <p class="form"><b> Contact No: </b></p>
+             <input type="Text" Name="Contact_No" placeholder="Ex. 123 - 4567 - 890">
+             <p class="form"><b> Schedule: </b></p>
+             <input type="Checkbox" Name="Schedule" value="Monday"> Monday <br />
+             <input type="Checkbox" Name="Schedule" value="Tuesday"> Tuesday <br />
+             <input type="Checkbox" Name="Schedule" value="Wednesday"> Wednesday <br />
+             <input type="Checkbox" Name="Schedule" value="Thursday"> Thursday <br />
+             <input type="Checkbox" Name="Schedule" value="Friday"> Friday <br />
+             <input type="Checkbox" Name="Schedule" value="Saturday"> Saturday <br />
+             </br>
+             <input type="Submit" value="Submit">
+             <br/>
+         </form>
+       </div>
+     </body>
+</html>
