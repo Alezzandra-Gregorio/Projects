@@ -1,0 +1,77 @@
+import java.util.*;
+
+public class MyClass implements Sports{
+
+    public void setHomeTeam(){
+       System.out.println("Home Team Wins");
+    }
+    public void setVisitingTeam(){
+       System.out.println("Visiting Team Wins");
+    } 
+    public void Hfoul(){
+        System.out.println("Home Team made a foul");
+    }
+    public void Hlost(){
+        System.out.println("Home Team lost");
+    }
+    public void Vfoul(){
+        System.out.println("Visit Team made a foul");
+    }
+    public void Vlost(){
+        System.out.println("Visit Team lost");
+    }
+
+public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    MyClass m = new MyClass();
+    String homeTeam;
+    String visitTeam;
+    String gameName;
+    String win = "none";
+    int score = 0;
+    
+    try{ 
+    System.out.println("Enter Name of Game: ");
+        gameName = sc.nextLine();
+    System.out.println("Enter Name of Home Team: ");
+        homeTeam = sc.nextLine();
+    System.out.println("Enter Name of Visiting Team: ");
+        visitTeam = sc.nextLine();
+    
+    System.out.println("Enter Score of Home Team " + "(" + homeTeam + " Team" + ")");
+        int homeScore = sc.nextInt();
+    System.out.println("Enter Score of Visiting Team " + "(" + visitTeam + " Team" + ")");
+        int visitScore = sc.nextInt();
+    
+        if (homeScore == visitScore){
+            System.out.println("The game is a tie");
+        } 
+        else if (visitScore == 0){
+            m.Vfoul();
+            win = homeTeam;
+            score = homeScore;
+        }
+        else if (homeScore == 0){
+            m.Hfoul();
+            win = visitTeam;
+            score = visitScore;
+        }
+        else if (homeScore > visitScore){
+            m.setHomeTeam();
+            m.Vlost();
+            win = homeTeam;
+            score = homeScore;
+        }
+        else
+        {
+            m.setVisitingTeam();
+            m.Hlost();
+            win = visitTeam;
+            score = visitScore;
+        }
+    System.out.println("in the game of " + gameName + " the winner is " + win + " and they accumulated " + score + " points." );
+    } catch (InputMismatchException e) {
+        System.out.println("Enter Numbers only Sorry :(");
+    }
+    }
+} 
