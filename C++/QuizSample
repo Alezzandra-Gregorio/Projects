@@ -1,0 +1,130 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	string playerName;
+	int playerChoice;
+	int playerScore;
+	
+	cout << "Enter your name to start" << endl;
+	cin >> playerName;
+	
+	cout << "Your name is " << playerName << ", correct?" << endl;
+	cout << "[1] Correct\n[2] Incorrect" << endl;
+	cin >> playerChoice;
+	
+	if (playerChoice == 1){
+		cout << "Goodluck" << endl;
+		
+		cout << "1.) What data type stores whole numbers?" << endl;
+		cout << "[1] int\n[2]double\n[3]float\n[4]number" << endl;
+		cin >> playerChoice;
+		if (playerChoice == 1){
+			cout << "Correct" << endl;
+			playerScore++;
+		} else {
+			cout << "Incorrect" << endl;
+		}
+		
+		cout << "2.) Non-volatile data stores temporary data." << endl;
+		cout << "[1] True\n[2] False" << endl;
+		cin >> playerChoice;
+		if (playerChoice == 2){
+			cout << "Correct" << endl;
+			playerScore++;
+		} else {
+			cout << "Incorrect" << endl;
+		}
+		
+		cout << "3.) IS professionals must understand both technical and organizational factors." << endl;
+		cout << "[1] True\n[2] False" << endl;
+		cin >> playerChoice;
+		if (playerChoice == 1){
+			cout << "Correct" << endl;
+			playerScore++;
+		} else {
+			cout << "Incorrect" << endl;
+		}
+		
+		cout << "4.) USB is an example of non-volatile memory." << endl;
+		cout << "[1] True\n[2] False" << endl;
+		cin >> playerChoice;
+		if (playerChoice == 1){
+			cout << "Correct" << endl;
+			playerScore++;
+		} else {
+			cout << "Incorrect" << endl;
+		}
+		
+		cout << "5.) Who developed Java?." << endl;
+		cout << "[1] Microsoft\n[2] Android\n[3] Oracle\n[4] Blackberry" << endl;
+		cin >> playerChoice;
+		if (playerChoice == 3){
+			cout << "Correct" << endl;
+			playerScore++;
+		} else {
+			cout << "Incorrect" << endl;
+		}
+		
+		cout << "Your final score is: " << playerScore << " /5" << endl;
+	} else if (playerChoice == 2){
+		cout << "Please enter your name again" << endl;
+		cin >> playerName;
+		cout << "Hello, " << playerName << endl;
+		
+			cout << "1.) What data type stores whole numbers?" << endl;
+		cout << "[1] int\n[2]double\n[3]float\n[4]number" << endl;
+		cin >> playerChoice;
+		if (playerChoice == 1){
+			cout << "Correct" << endl;
+			playerScore++;
+		} else {
+			cout << "Incorrect" << endl;
+		}
+		
+		cout << "2.) Non-volatile data stores temporary data." << endl;
+		cout << "[1] True\n[2] False" << endl;
+		cin >> playerChoice;
+		if (playerChoice == 2){
+			cout << "Correct" << endl;
+			playerScore++;
+		} else {
+			cout << "Incorrect" << endl;
+		}
+		
+		cout << "3.) IS professionals must understand both technical and organizational factors." << endl;
+		cout << "[1] True\n[2] False" << endl;
+		cin >> playerChoice;
+		if (playerChoice == 1){
+			cout << "Correct" << endl;
+			playerScore++;
+		} else {
+			cout << "Incorrect" << endl;
+		}
+		
+		cout << "4.) USB is an example of non-volatile memory." << endl;
+		cout << "[1] True\n[2] False" << endl;
+		cin >> playerChoice;
+		if (playerChoice == 1){
+			cout << "Correct" << endl;
+			playerScore++;
+		} else {
+			cout << "Incorrect" << endl;
+		}
+		
+		cout << "5.) Who developed Java?." << endl;
+		cout << "[1] Microsoft\n[2] Android\n[3] Oracle\n[4] Blackberry" << endl;
+		cin >> playerChoice;
+		if (playerChoice == 3){
+			cout << "Correct" << endl;
+			playerScore++;
+		} else {
+			cout << "Incorrect" << endl;
+		}
+		
+		cout << "Your final score is: " << playerScore << " /5" << endl;
+	} else {
+		cout << "Only enter 1 or 2" << endl;
+	}
+	
+}
